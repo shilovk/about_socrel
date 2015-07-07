@@ -1355,8 +1355,8 @@
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #8cd1a8;
+		border-bottom: dotted 3px;
+		color: #70854A;
 		text-decoration: none;
 	}
 
@@ -3059,3 +3059,41 @@
 				}
 
 	}
+
+#snoska15 {
+	float: left;
+	position: relative;
+	top: 13.5em;
+	left: 22.2em;
+	width: 10%;
+}
+
+#snoska13 {
+	float: left;
+	position: relative;
+	top: 22.25em;
+	left: 23.8em;
+	width: 10%;
+	z-index: 1;
+}
+
+#snoska25 {
+	float: left;
+	position: relative;
+	top: 33.9em;
+	left: 20.9em;
+	width: 10%;
+}
+
+.image_box {
+  visibility: hidden;
+  border: solid 1px #CCC;
+  background-color: #70854A;
+  padding: 5px;
+  z-index: 2;
+  width: 28em;
+}
+
+.image_box img {
+  width: 27em;
+}
